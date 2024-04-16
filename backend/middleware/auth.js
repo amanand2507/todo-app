@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
 const userModel = require('../model/user.js');
 const bcrypt = require('bcrypt');
-const userModel = require('../model/user.model');
 const emailValidator = require('email-validator'); 
 
 // Middleware to check user authorization
