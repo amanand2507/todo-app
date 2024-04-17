@@ -1,0 +1,21 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "todo app for assignment",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "client": "npm run dev --prefix client",
+    "server": "npm start --prefix backend",
+    "postinstall": "cd backend && npm install && cd ../client && npm install && npm run build"
+
+  },
+  "keywords": [
+    "node",
+    "mern",
+    "todo"
+  ],
+  "author": "aman anand",
+  "license": "ISC"
+}
